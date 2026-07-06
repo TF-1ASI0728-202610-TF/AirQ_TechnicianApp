@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 
 class ApiConstants {
   // Apuntando al backend oficial en producción (Render)
-  static String get baseUrl => 'https://airqbackendprueba.onrender.com/api/v1';
+  static String get baseUrl => 'https://airq-backend-paxm.onrender.com/api/v1';
   
   static String get login => '$baseUrl/auth/login';
   static String get sensors => '$baseUrl/sensors';
